@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+.main-container {
+    width: 100%;
+    display: grid;
+    place-content: center;
+    padding-top:15vmin;
+}
+
+.card {
+    width: 21rem;
+    margin: 1rem;   
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.card-header-image img {
+    width: 100%;
+    height: 9.5rem;
+    border-radius: .5rem;
+    margin-bottom: 1rem ;
+}
+
+.card-body-badge{
+    font-family: 'Sora', sans-serif;
+    font-size: 0.625rem;
+    font-weight: bold;
+    color:#8A3EE1;
+    background-color: #E6D6FC;
+    width: 3rem;
+    text-align: center;
+    padding: .4rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    height: .6rem;
+}
+
+.card-body-title{
+    font-weight: bold;
+    font-family: 'Sora', sans-serif;
+    font-size: 1.125rem;
+    margin-bottom: .6rem;
+}
+
+.card-body-subtitle{
+    font-family: 'Sora',sans-serif;
+    font-size:0.875rem;
+    color: #7E838F;
+    margin-bottom:1.25rem;
+}
+
+.card-footer-divder hr{
+    margin-left:0;
+    margin-right:0;
+    color: #E5EAF0;
+}
+
+.card-footer-divider{
+    margin-bottom:1.25rem;
+}
+
+.card-footer-author{
+    font-family: 'Sora',sans-serif;
+    font-size:0.875rem;
+    color: #7E838F;
+    margin-bottom:1.25rem;
+}
